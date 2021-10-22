@@ -105,5 +105,9 @@ box-shadow: 4px 13px 15px 30px #000000;
         height: 170px;
     }
     ul>li:hover{
-        font-weight: 500;
-        font-size: 40px;}
+        font-size: 30px;}
+
+        .spusok>li>a{
+            text-decoration: none;
+            color: black;
+        }
