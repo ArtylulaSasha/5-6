@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: white
+}
+.container{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+    height: 80px;
+}
+.header{
+    padding: 30px 0 30px 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav{
+    font-size: 20px;
+    
+}
+.nav_lnk{
+    color:white;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    background: url(/Layer\ 10.png) center no-repeat ;
+    
+}
+.intro_text1{
+font-size: 48px;
+color: white;
+text-align: center;
+}
+.intro_text2{
+ font-size: 20px;
+color: white;
+text-align: center;
+margin: 15px;
+}
+
+.bth{
+    vertical-align: top;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+     margin: 0 0 0 45%;
+     padding: 5px 5px 5px 5px;
+}
+.text1{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    border-bottom: 2px solid black;
+}
+.text2{
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+}
+
+   
+
+.item_img>img{
+    width: 50px;
+    height: 50px;
+    padding: 8px 8px 8px 8px;
+    background-color: red;
+    border-radius: 35px;
+}
+.item_text1{
+    font-size: 14px;
+    padding: 30px 0 30px 0;
+}
+.item_text2{
+    font-size: 14px;
+    padding: 25px 0 90px 0;
+}
+.item_img1>img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 35px;
+    padding: 8px 8px 8px 8px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
