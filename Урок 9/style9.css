@@ -162,7 +162,7 @@ margin: 15px;
     align-items: center;
     margin: 100px 15px auto;
 }
-.bird{
+.bird1{
     width: 30px;
     height: 30px;
     display: flex;
@@ -171,6 +171,40 @@ margin: 15px;
     margin: 100px 15px auto;
     border: 2px solid #ffffff;
     border-radius: 50%;
+    color: white;
+}
+.bird2{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 15px auto;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: white;
+}
+.bird3{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 15px auto;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: white;
+}
+.bird4{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 15px auto;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: white;
 }
 .bird i{
     color: white;
@@ -183,14 +217,23 @@ margin: 15px;
     color: white;
     margin: 65px auto;
 }
-.birds:hover> .bird i{
-    color: #bf2f1b;
-    
 
+.bird1:hover{
+    color:#bf2f1b ;
+    background-color: white;
+}
+.bird2:hover{
+    color:#bf2f1b ;
+    background-color: white;
+}
+.bird3:hover{
+    color:#bf2f1b ;
+    background-color: white;
+}
+.bird4:hover{
+    color:#bf2f1b ;
+    background-color: white;
 }
 
-.birds:hover > .bird:hover{
-    
-        background-color: white;
-    
-}
+
+
