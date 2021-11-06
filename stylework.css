@@ -7,14 +7,19 @@ body{
     background-color: rgb(216, 213, 213);
 }
 .beginning{
+    display: flex;
+    flex-direction: column;
     width: 1600px;
     height: 600px;
     margin-left: 300px;
     margin-top: 150px;
-    display: flex;
     border-radius: 50px;
     background-color: rgb(226, 226, 226);
     
+}
+
+.beginning:hover{
+    background-color: rgba(132, 154, 194, 0.534);
 }
 .beginning_text{
     margin: 30px 0 0 35px;
@@ -25,6 +30,12 @@ body{
     background-color: rgb(245, 243, 243);
     border-radius: 35px;
     margin: 30px 0px 0 0px;
+    -webkit-box-shadow: 20px 21px 16px 5px rgba(34, 60, 80, 0.33);
+-moz-box-shadow: 20px 21px 16px 5px rgba(34, 60, 80, 0.33);
+box-shadow: 20px 21px 16px 5px rgba(34, 60, 80, 0.33);
+}
+.beginning_1:hover{
+    -webkit-box-shadow: none
 }
 .beginning_1_text{
     display: flex;
@@ -64,9 +75,4 @@ body{
     margin-top: 15px;
     font-size: 27px;
     
-}
-.beginning_top{
-    display: flex;
-    align-content: space-around;
-    justify-content: space-around;
 }
