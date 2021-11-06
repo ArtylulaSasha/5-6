@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Zen Antique Soft', serif;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url(/romashki_tsvety_tsvetenie_140063_1920x1080.jpg) center ;
+}
+.back{
+    width: 1200px;
+    height: 800px;
+    background: linear-gradient(124deg, rgba(104,166,94,1) 11%, rgba(71,136,56,1) 21%, rgba(73,125,62,1) 35%, rgba(73,125,62,1) 37%, rgba(63,120,52,1) 46%, rgba(69,121,59,1) 53%, rgba(50,99,40,1) 63%, rgba(40,80,31,1) 70%, rgba(48,79,42,1) 76%, rgba(29,51,25,1) 87%, rgba(16,21,15,1) 94%);
+    margin-left: 20%;
+    margin-top: 100px;
+    border-radius: 40px;
+    -webkit-box-shadow: 6px 4px 46px 25px rgba(175, 82, 49, 0.4);
+    -moz-box-shadow: 6px 4px 46px 25px rgba(175, 82, 49, 0.4);
+    box-shadow: 6px 4px 46px 25px rgba(175, 82, 49, 0.4);
+}
+
+.foorma{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.social a{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 50%;
+    margin: 10px 50px;
+    background: linear-gradient(90deg, rgba(67,68,67,1) 17%, rgba(57,66,56,1) 30%, rgba(49,64,46,1) 46%, rgba(45,69,43,1) 65%, rgba(24,47,22,1) 89%);
+    color: black;
+    text-decoration: none;
+    padding: 3px 0 10px 0;
+}
+.form_main{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.foorma>h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.name{
+    margin: 100px 40px 50px 0px ;
+}
+.phone{
+    margin: 0px 40px 50px 50px ;
+}
+.email{
+    margin: 0px 40px 50px 0px ;
+}
+
+.main{
+    display: flex;
+    
+}
+
+.user{
+    margin: 100px 50px;
+}
+.area{
+    margin-left: 300px;
+}
+input[type="text"],input[type="tel"], input[type="email"], textarea{
+    background-color: thistle;
+    border: none;
+}
