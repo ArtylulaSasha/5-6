@@ -26,17 +26,53 @@ ul li{
 margin-right: 50px;
 font-size: 25px;
 }
+.main{
+    display: flex;
+}
 
 .main-text{
+    width: 70%;
     margin-left: 20px;
 }
 .card{
-    width: 10%;
-    height: 50%;
-    padding: 10px 10px 10px 10px;
+    width: 300px;
+    height: 250px;
+    margin: 0 50px 0 0;
     border: 3px solid black;
+    
 }
+
 .main-bloks{
+    margin-top: 50px;
+    margin-right: 40px;
     display: flex;
-    justify-content: space-around;
+    
 }
+.card-header{
+    background-color: black;
+    color: white;
+}
+.main-block{
+    width: 30%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+}
+@media (max-width: 1500px){
+    .main-bloks{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1080px){
+    .main{
+        display: block;
+    }
+
+    
+   
+    }
