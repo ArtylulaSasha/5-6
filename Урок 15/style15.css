@@ -68,11 +68,55 @@ font-size: 25px;
         margin-top: 40px;
     }
 }
-@media (max-width: 1080px){
+@media (max-width: 1200px){
     .main{
-        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-block{
+        margin-top: 40px;
+        width: 100%;
     }
 
-    
+    .main-bloks{
+        display: flex;
+        justify-content: center;
+       
+        width: 100%;
+    }
+
+}  
    
+    
+    @media (max-width: 768px){
+        .card{
+            width: 80%;
+            height: 40%;
+        }
+
+    }
+    @media (max-width: 576px){
+        .header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .text{
+            margin-left: 0px;
+        }
+    }
+    @media (max-width: 400px){
+        ul{
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            
+        }
+        .text{
+            border-bottom: 2px dashed black;
+            margin-top: 20px;
+        }
+        .header{
+            height: 200px;
+        }
     }

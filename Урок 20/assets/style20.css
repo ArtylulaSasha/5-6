@@ -1,0 +1,141 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "grid1 grid2 grid3 "
+    "grid1 grid2 grid4"
+    
+    ;
+    
+    
+}
+.grid1{
+    margin: 10px;
+    border: 2px dashed black;
+    grid-row-start:1 ;
+    grid-row-end:3;
+    grid-area: grid1;
+    background-color: #feeea1;
+    
+   
+   
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bth{
+    width: 200px;
+    height: 100px;
+    border: 2px dashed black;
+    margin-top: 50px;
+}
+.bth>p{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.bth:hover{
+    font-size: 30px;
+    width: 250px;
+    height: 150px;
+    background-color: wheat
+    
+    
+}
+
+.grid2{
+    margin: 10px;
+    border: 2px dashed black;
+    width: 700px;
+    grid-area: grid2;
+    background-color: #d9eafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.grid2>p{
+    margin-top: 100px;
+}
+.grid3{
+    margin: 10px;
+    border: 2px dashed black;
+    grid-column-start:3 ;
+    grid-column-end: 3;
+    grid-area: grid3;
+    background-color: #783f68;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.grid4{
+    margin: 10px;
+    border: 2px dashed black;
+    grid-column-start:3 ;
+    grid-column-end: 3;
+    grid-area: grid4;
+    background-color: #93c4c1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.grid5{
+    margin: 10px;
+    border: 2px dashed black;
+    grid-row-start:3 ;
+    grid-row-end:4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #abceee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.grid6{
+    margin: 10px;
+    border: 2px dashed black;
+    background-color: #b97ca6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.mona{
+    
+    width: 300px;
+    height: 200px;
+}
+.qiqi{
+    width: 200px;
+    height: 200px;
+
+}
