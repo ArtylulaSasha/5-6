@@ -1,0 +1,23 @@
+.btn-outline-secondary {
+    margin-left: 170px;
+}
+.card{
+    margin-top: 60px;
+    
+}
+.fa-heart{
+    margin-left: 220px;
+    font-size: 30px;
+}
+.fa-heart:hover{
+color: rgb(158, 16, 16);
+font-size: 35px;
+}
+.fa-question-circle{
+    font-size: 25px;
+}
+.card-img-top{
+   padding: 0 40px;
+    margin: 40px auto
+     
+}

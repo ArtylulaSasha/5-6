@@ -1,0 +1,11 @@
+.uk-margin {
+    width:900px;
+
+}
+i{
+    margin-right: 50px;
+}
+.fa-trash-alt{
+    position: absolute;
+    right: 10px;
+}
